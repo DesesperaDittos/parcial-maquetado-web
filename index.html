@@ -1,9 +1,318 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>South Park - Blog</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/globals.css" />
   </head>
-  <body></body>
+  <body>
+    <div id="banner-south-park">
+      <img src="public/banner.png" alt="Banner de South Park" width="800" />
+    </div>
+
+    <div id="navbar">
+      <p id="logo">South Park</p>
+      <ul>
+        <li><a href="#intro">Inicio</a></li>
+        <li><a href="#personajes">Personajes</a></li>
+        <li><a href="#episodios">Episodios</a></li>
+        <li><a href="#actores">Actores</a></li>
+        <li><a href="#autor">Autor</a></li>
+        <li><a href="#fuentes">Fuentes</a></li>
+      </ul>
+    </div>
+
+    <div id="intro">
+      <h1>South Park: el pueblo más caótico de Colorado</h1>
+      <p>
+        <strong>South Park</strong> es una serie animada para adultos creada por
+        <strong>Trey Parker</strong> y <strong>Matt Stone</strong> en
+        <abbr title="Estados Unidos">EE.UU.</abbr> y emitida por
+        <abbr title="Comedy Central">CC</abbr> desde 1997. La serie se centra en
+        cuatro chicos de un pueblo ficticio en las montañas de Colorado y se
+        caracteriza por su humor <em>ácido</em>, sus críticas sociales y su
+        animación con apariencia de recortes de cartulina. Su frase más
+        recordada, <q lang="en">Oh my God, they killed Kenny!</q>, se convirtió
+        en un ícono de la cultura pop.
+      </p>
+    </div>
+
+    <div id="personajes">
+      <h2 class="titulo-seccion">Personajes</h2>
+      <p>
+        Los <em>cuatro protagonistas</em> son alumnos de la escuela primaria de
+        South Park y cada uno representa un arquetipo distinto.
+      </p>
+
+      <div class="tarjeta">
+        <img
+          src="public/personajes/stan.jpg"
+          alt="Stan Marsh"
+          width="135"
+          height="135"
+        />
+        <h3>Stan Marsh</h3>
+        <p>
+          El <strong>"chico normal"</strong> del grupo. Suele ser la voz de la
+          razón cuando todo se descontrola. Lleva el clásico gorro azul con
+          pompón rojo.
+        </p>
+      </div>
+
+      <div class="tarjeta">
+        <img
+          src="public/personajes/kyle.jpg"
+          alt="Kyle Broflovski"
+          width="135"
+          height="135"
+        />
+        <h3>Kyle Broflovski</h3>
+        <p>
+          El mejor amigo de Stan, <em>judío</em> y profundamente moralista.
+          Suele ser el blanco preferido de las burlas de Cartman. Su gorro verde
+          es marca registrada.
+        </p>
+      </div>
+
+      <div class="tarjeta">
+        <img
+          src="public/personajes/cartman.jpg"
+          alt="Eric Cartman"
+          width="135"
+          height="135"
+        />
+        <h3>Eric Cartman</h3>
+        <p>
+          El <strong>antagonista</strong> recurrente del show. Egocéntrico,
+          racista y manipulador, pero también una de las principales fuentes de
+          comedia. Su gorro celeste con pompón amarillo lo hace inconfundible.
+        </p>
+      </div>
+
+      <div class="tarjeta">
+        <img
+          src="public/personajes/kenny.jpg"
+          alt="Kenny McCormick"
+          width="135"
+          height="135"
+        />
+        <h3>Kenny McCormick</h3>
+        <p>
+          El chico de la familia pobre, siempre cubierto por una capucha
+          <strong>naranja</strong> que apaga su voz. Famoso por
+          <em>morir</em> en casi todos los episodios de las primeras temporadas.
+        </p>
+      </div>
+    </div>
+
+    <div id="episodios">
+      <h2 class="titulo-seccion">Episodios recomendados</h2>
+      <p>
+        Una selección de capítulos clave para entender por qué la serie marcó
+        una época.
+      </p>
+
+      <div class="tarjeta">
+        <img
+          src="public/episodios/scott-tenorman.png"
+          alt="Captura del episodio Scott Tenorman debe morir"
+          width="260"
+          height="150"
+        />
+        <h3>
+          Scott Tenorman debe morir —
+          <abbr title="Temporada">T</abbr>5 <abbr title="Episodio">Ep.</abbr> 4
+        </h3>
+        <p>
+          Cartman es estafado por un chico mayor llamado Scott Tenorman y planea
+          una venganza tan retorcida que se convirtió en uno de los momentos
+          <em>más oscuros</em> y memorables de toda la serie.
+        </p>
+      </div>
+
+      <div class="tarjeta">
+        <img
+          src="public/episodios/warcraft.png"
+          alt="Captura del episodio Hagan el amor, no Warcraft"
+          width="260"
+          height="150"
+        />
+        <h3>
+          Hagan el amor, no Warcraft —
+          <abbr title="Temporada">T</abbr>10 <abbr title="Episodio">Ep.</abbr> 8
+        </h3>
+        <p>
+          Los chicos se obsesionan con
+          <span lang="en">World of Warcraft</span> para derrotar a un jugador
+          que arruina el juego para todos. Ganó un premio
+          <abbr title="Premio de la Academia de Televisión de EE.UU."
+            >Emmy</abbr
+          >
+          y es una <strong>carta de amor</strong> a la cultura gamer.
+        </p>
+      </div>
+
+      <div class="tarjeta">
+        <img
+          src="public/episodios/casabonita.png"
+          alt="Captura del episodio Casa Bonita"
+          width="260"
+          height="150"
+        />
+        <h3>
+          Casa Bonita —
+          <abbr title="Temporada">T</abbr>7 <abbr title="Episodio">Ep.</abbr> 11
+        </h3>
+        <p>
+          Cartman hace lo imposible (y lo <strong>cruel</strong>) para ser
+          invitado al cumpleaños de Kyle en el restaurante mexicano
+          <em>Casa Bonita</em>. Un clásico de la maldad cartmaniana.
+        </p>
+      </div>
+
+      <div class="tarjeta">
+        <img
+          src="public/episodios/imaginationland.png"
+          alt="Captura del episodio Imaginationland"
+          width="260"
+          height="150"
+        />
+        <h3>
+          Imaginationland —
+          <abbr title="Temporada">T</abbr>11 <abbr title="Episodio">Ep.</abbr>
+          10-12
+        </h3>
+        <p>
+          Una <strong>trilogía épica</strong> en la que los chicos descubren un
+          mundo habitado por todos los personajes ficticios jamás imaginados,
+          que es atacado por terroristas. Mientras tanto, Cartman intenta a
+          toda costa cobrarle a Kyle una <em>apuesta perdida</em> que se volvió
+          un meme eterno.
+        </p>
+      </div>
+
+      <div class="tarjeta">
+        <img
+          src="public/episodios/awesomo.png"
+          alt="Captura del episodio AWESOM-O"
+          width="260"
+          height="150"
+        />
+        <h3>
+          AWESOM-O —
+          <abbr title="Temporada">T</abbr>8 <abbr title="Episodio">Ep.</abbr> 5
+        </h3>
+        <p>
+          Cartman se disfraza de un robot llamado
+          <span lang="en">AWESOM-O</span> para humillar a Butters, pero el plan
+          se le va de las manos cuando es <strong>secuestrado</strong> por el
+          Pentágono y enviado a Hollywood como prueba de tecnología
+          extraterrestre.
+        </p>
+      </div>
+    </div>
+
+    <div id="actores">
+      <h2 class="titulo-seccion">Actores de doblaje</h2>
+      <p>
+        Casi todos los personajes son interpretados por
+        <strong>cuatro actores</strong>, siendo Trey Parker y Matt Stone los que
+        cubren la enorme mayoría.
+      </p>
+      <dl>
+        <dt>Trey Parker</dt>
+        <dd>Stan Marsh, Eric Cartman, Randy Marsh y Mr. Garrison.</dd>
+
+        <dt>Matt Stone</dt>
+        <dd>Kyle Broflovski, Kenny McCormick, Butters Stotch y Pip Pirrip.</dd>
+
+        <dt>Mona Marshall</dt>
+        <dd>Sheila Broflovski, Linda Stotch y varias madres del pueblo.</dd>
+
+        <dt>April Stewart</dt>
+        <dd>Liane Cartman, Wendy Testaburger y Sharon Marsh.</dd>
+      </dl>
+    </div>
+
+    <div id="autor">
+      <h2 class="titulo-seccion">Sobre los autores</h2>
+
+      <div class="tarjeta">
+        <img
+          src="public/autores/agus.jpeg"
+          alt="Foto del primer autor"
+          width="400"
+          height="400"
+        />
+        <p><strong>Nombre:</strong> Agustín Rotondaro</p>
+        <p><strong>Edad:</strong> 25</p>
+        <p>
+          <strong>Email:</strong>
+          <a href="mailto:rotondaro.agustin@davinci.edu.ar"
+            >rotondaro.agustin@davinci.edu.ar</a
+          >
+        </p>
+        <img
+          class="south"
+          src="public/autores/agus-south.png"
+          alt="Versión South Park de Agustín"
+          width="250"
+          height="250"
+        />
+      </div>
+
+      <div class="tarjeta">
+        <img
+          src="public/autores/fran.jpg"
+          alt="Foto del segundo autor"
+          width="400"
+          height="400"
+        />
+        <p><strong>Nombre:</strong> Espíndola Francisco</p>
+        <p><strong>Edad:</strong> 20 años</p>
+        <p>
+          <strong>Email:</strong>
+          <a href="mailto:francisco.espindola@davinci.edu.ar"
+            >francisco.espindola@davinci.edu.ar</a
+          >
+        </p>
+        <img
+          class="south"
+          src="public/autores/fran-south.png"
+          alt="Versión South Park de Francisco"
+          width="250"
+          height="250"
+        />
+      </div>
+    </div>
+
+    <div id="fuentes">
+      <h2 class="titulo-seccion">Fuentes</h2>
+      <ul>
+        <li>
+          <a href="https://southpark.cc.com/"
+            >South Park Studios (sitio oficial)</a
+          >
+        </li>
+        <li>
+          <a href="https://southpark.fandom.com/es/wiki/Personajes"
+            >Wiki South Park (Fandom)</a
+          >
+        </li>
+        <li>
+          <a href="https://en.wikipedia.org/wiki/South_Park"
+            >Wikipedia — South Park</a
+          >
+        </li>
+      </ul>
+    </div>
+  </body>
 </html>

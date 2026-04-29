@@ -1,8 +1,6 @@
 /* Reseteo de estilos globalmente*/
 
-*,
-*::before,
-*::after {
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -11,8 +9,8 @@
 /* Backgrounds laterales: fuera de los 800px del body */
 html {
   -webkit-text-size-adjust: 100%;
-  scroll-behavior: smooth;
   background-color: #fdc82f;
+  /*Fondos de pantalla de los costados */
   background-image: url("../public/background/background-1.jpg"),
     url("../public/background/background-2.jpg");
   background-position: left top, right top;
@@ -85,11 +83,6 @@ abbr {
   cursor: help;
 }
 
-.archivo-black-regular {
-  font-family: "Archivo Black", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
 
 /* Clases compartidas */
 

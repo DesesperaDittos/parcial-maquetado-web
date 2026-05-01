@@ -6,20 +6,23 @@
   padding: 0;
 }
 
-/* Backgrounds laterales: fuera de los 800px del body */
+/* Backgrounds laterales: fuera de los 1366px del body */
 html {
   -webkit-text-size-adjust: 100%;
   background-color: #fdc82f;
   /*Fondos de pantalla de los costados */
-  background-image: url("../public/background/background-1.jpg"),
+  background-image:
+    url("../public/background/background-1.jpg"),
     url("../public/background/background-2.jpg");
-  background-position: left top, right top;
+  background-position:
+    left top,
+    right top;
   background-repeat: repeat-y, repeat-y;
   background-attachment: fixed, fixed;
 }
 
 body {
-  width: 800px;
+  width: 1366px;
   min-height: 100dvh;
   margin: 0 auto;
   background-color: #ffffff;
@@ -82,7 +85,6 @@ abbr {
   text-decoration: underline dotted #7b3f00;
   cursor: help;
 }
-
 
 /* Clases compartidas */
 
@@ -279,10 +281,113 @@ abbr {
 }
 
 #actores dl dd {
-
   margin-bottom: 8px;
   margin-left: 18px;
   font-size: 14px;
+}
+
+/* Producción */
+
+#produccion {
+  padding: 35px 30px;
+  background-color: #ffffff;
+  border-bottom: 4px solid #000000;
+}
+
+#produccion h2 {
+  color: #dc1e2e;
+}
+
+#produccion > p {
+  margin-bottom: 22px;
+  font-size: 15px;
+}
+
+#produccion dl {
+  padding: 22px;
+  background-color: #fdc82f;
+  border: 3px solid #000000;
+  text-align: left;
+}
+
+#produccion dl dt {
+  margin-top: 5px;
+  color: #0073cf;
+  font-size: 18px;
+}
+
+#produccion dl dd {
+  margin-bottom: 8px;
+  margin-left: 18px;
+  font-size: 14px;
+}
+
+/* Curiosidades */
+
+#curiosidades {
+  padding: 35px 30px;
+  background-color: #0073cf;
+  border-bottom: 4px solid #000000;
+  color: #ffffff;
+}
+
+#curiosidades h2 {
+  color: #ffffff;
+}
+
+#curiosidades > p {
+  margin-bottom: 22px;
+  font-size: 15px;
+}
+
+#curiosidades blockquote {
+  display: inline-block;
+  width: 360px;
+  margin: 10px 8px;
+  padding: 18px;
+  background-color: #ffffff;
+  border: 3px solid #000000;
+  color: #000000;
+  text-align: left;
+  vertical-align: top;
+}
+
+#curiosidades blockquote q {
+  display: block;
+  margin-bottom: 12px;
+  font-size: 15px;
+  font-style: italic;
+}
+
+#curiosidades blockquote cite {
+  color: #dc1e2e;
+  font-size: 13px;
+  font-style: normal;
+}
+
+#curiosidades h3 {
+  margin: 28px 0 14px;
+  color: #ffffff;
+  font-size: 22px;
+}
+
+#curiosidades ul {
+  padding: 22px;
+  background-color: #ffffff;
+  border: 3px solid #000000;
+  color: #000000;
+  text-align: left;
+}
+
+#curiosidades ul li {
+  margin-bottom: 10px;
+  margin-left: 22px;
+  font-size: 14px;
+  list-style: disc;
+}
+
+#curiosidades ul li:last-child {
+  margin-bottom: 0;
 }
 
 /* Autor */
@@ -299,9 +404,11 @@ abbr {
 }
 
 #autor .tarjeta {
+  display: inline-block;
   width: 460px;
-  margin: 12px auto;
+  margin: 12px 8px;
   padding: 18px;
+  vertical-align: top;
 }
 
 #autor .tarjeta img {

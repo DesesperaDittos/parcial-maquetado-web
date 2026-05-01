@@ -8,7 +8,7 @@
 
 /* Backgrounds laterales: fuera de los 1366px del body */
 html {
-  -webkit-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; /* Evita que el navegador autoajuste el texto */
   background-color: #fdc82f;
   /*Fondos de pantalla de los costados */
   background-image:
@@ -28,7 +28,7 @@ body {
   background-color: #ffffff;
   text-align: center;
   line-height: 1.5;
-  font-family: "Archivo Black", sans-serif;
+  font-family: "Archivo Black", sans-serif; /* Nuestra tipografia custom */
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
   color: #000000;
